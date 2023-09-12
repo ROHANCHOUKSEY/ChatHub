@@ -1,0 +1,317 @@
+.formContainer{
+    background-color: #98b4d4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.formWrapper{
+
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 27px;
+    font-weight: bold;
+    color: purple;
+}
+
+.title{
+    color: black;
+    font-weight: 600;
+}
+
+.form_style{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input_style{
+    padding: 15px;
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid #a7bcff;
+}
+
+.input_style::placeholder{
+    color: rgb(175, 175, 175);
+}
+
+.sign_up{
+    background-color: #7b96ec;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 14px;
+    font-weight: bold;
+    border: none;
+}
+
+.photo{
+    display: none;
+}
+
+.avatarimg{
+    height: 37px;
+}
+
+.details{
+    color: #7b96ec;
+    textdecoraton: none;
+}
+
+.label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #7b96ec;
+
+}
+
+.home{
+    background-color: #98b4d4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    overflow: hidden;
+}
+
+.sidebar{
+    flex: 1;
+    background-color: #2e3132;
+    color: white;
+    overflow: auto;
+}
+
+.chat{
+    flex: 2;
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    height: 35px;
+    justify-content: space-between;
+    color: #ddddf7;
+}
+
+.logo1{
+    font-weight: bold;
+}
+
+.user{
+    display: flex;
+    gap: 10px;
+}
+
+.navimg1{
+    background-color: #ddddf7;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;   
+    object-fit: cover;
+}
+
+.logout{
+    background-color: #5d5d8d;
+    color: #ddddf7;
+    cursor: pointer;
+}
+
+.search{
+  border-bottom: 1px solid gray;
+}
+
+.searchForm{
+    padding: 10px;
+}
+
+.find{
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.find::placeholder{
+    color: white;
+}
+
+.userChat{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.userChat:hover{
+    background-color: gray;
+}
+
+.userChatInfo{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.navimg{
+    background-color: #ddddf7;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userName{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 17px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.userchat{
+    color: lightgray;
+    font-size: 14px;
+}
+
+.chatInfo{
+    background-color: #2e3132;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+.logos{
+ height: 24px;   
+ cursor: pointer;
+}
+
+.messages{
+    background-color: white;
+    padding: 10px;
+    height: calc(100% - 160px);
+    overflow: scroll;
+}
+
+.input{
+    height: 50px;
+    background-color: #525252;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.send{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.send_button{
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #8da4f1;
+    border-radius: 14px;
+}
+
+.message{
+    display: flex;
+    gap: 20px;
+}
+
+.img_send{
+    display: flex;
+    gap: 16%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.img_send{
+    width:50%;
+}
+
+.img_send2{
+    height: 134px;
+    border-radius: 0;
+    width: 134px;
+}
+
+.messageContent{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    bottom: 19px;
+}
+
+.messageInfo{
+    color: #8da4f1;
+}
+
+.send_mes{
+    background-color: #8da4f1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0px 10px 10px 10px;
+}
+
+.message.owner {
+    flex-direction: row-reverse;
+  }
+  
+.message.owner p {
+    background-color: #8da4f1;
+    color: white;
+    border-radius: 10px 0px 10px 10px;
+}
+  
+.no-underline {
+    text-decoration: none;
+}
+
+.text2{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;   
+}
+
+.text2::placeholder{
+    color: white;
+}
