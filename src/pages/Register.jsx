@@ -62,7 +62,7 @@ const handleSubmit = async (e) =>{
 return (
     <div className='formContainer'>
         <div className='formWrapper'>
-            <span className='logo'>FAST CHAT</span>
+            <span className='logo'>ChatHub</span>
             <span className='title'>Registration</span>
             <form className='form_style' onSubmit={handleSubmit}>
                 <input type='text' placeholder='display name'  className='input_style'/>

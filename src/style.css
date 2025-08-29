@@ -114,6 +114,7 @@
     height: 35px;
     justify-content: space-between;
     color: #ddddf7;
+    align-items: center;
 }
 
 .logo1{
@@ -123,6 +124,7 @@
 .user{
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .navimg1{
@@ -130,13 +132,17 @@
     height: 24px;
     width: 24px;
     border-radius: 50%;   
-    object-fit: cover;
+    object-fit: cover
 }
 
 .logout{
     background-color: #5d5d8d;
     color: #ddddf7;
     cursor: pointer;
+    border: 0;
+    height: 30px;
+    border-radius: 13px;
+    width: 70px;
 }
 
 .search{
@@ -234,7 +240,7 @@
 .send{
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 10px;
 }
 
 .send_button{
@@ -314,4 +320,8 @@
 
 .text2::placeholder{
     color: white;
+}
+
+.cross{
+    display: none;
 }
