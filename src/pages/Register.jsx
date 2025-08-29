@@ -63,7 +63,7 @@ return (
     <div className='formContainer'>
         <div className='formWrapper'>
             <span className='logo'>ChatHub</span>
-            <span className='title'>Registration</span>
+            <span className='title'>Registration</span> 
             <form className='form_style' onSubmit={handleSubmit}>
                 <input type='text' placeholder='display name'  className='input_style'/>
                 <input type='email' placeholder='email'  className='input_style'/>
@@ -74,7 +74,7 @@ return (
                 <span>Select Avatar</span>
                 </label>
                 <button className='sign_up'>Sign Up</button>
-                {/* <span>{err}</span> */}
+                {/* <span>{err}</span> */}  
             </form>
             <p className='details'>You do have an account?<Link to="/login" className="no-underline">Login</Link></p>
         </div>
